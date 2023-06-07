@@ -1,1 +1,0 @@
-# PlainMQ.Node
