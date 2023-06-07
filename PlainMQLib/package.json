@@ -1,0 +1,27 @@
+{
+  "name": "plainmqlib",
+  "version": "1.0.0",
+  "description": "nodejs client for plainmq",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PlainMQ/PlainMQ.Node.git"
+  },
+  "keywords": [
+    "plainmq",
+    "broadcast",
+    "simple",
+    "plain",
+    "messaging",
+    "queue"
+  ],
+  "author": "alekgallo",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/PlainMQ/PlainMQ.Node/issues"
+  },
+  "homepage": "https://github.com/PlainMQ/PlainMQ.Node#readme"
+}
