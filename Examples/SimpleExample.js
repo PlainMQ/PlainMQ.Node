@@ -1,4 +1,4 @@
-const PlainMQ = require("./plainmq");
+const PlainMQ = require("@plainmq/plainmqlib");
 
 PlainMQ.setup("127.0.0.1", 13000);
 

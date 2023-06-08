@@ -1,8 +1,8 @@
 {
-  "name": "plainmqlib",
-  "version": "1.0.0",
+  "name": "@plainmq/plainmqlib",
+  "version": "0.0.1",
   "description": "nodejs client for plainmq",
-  "main": "index.js",
+  "main": "plainmq.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
