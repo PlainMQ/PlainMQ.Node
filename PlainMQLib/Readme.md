@@ -18,16 +18,13 @@ PlainMQ is a simple broadcast only messaging queue which runs off a [server](htt
 ## Simple Example
 
 ```js
-const PlainMQ = require("./plainmq");
+const PlainMQ = require("@plainmq/plainmqlib");
 
-// 1 setup the connection
 PlainMQ.setup("127.0.0.1", 13000);
 
-// 2 setup the receiving function/s
 PlainMQ.onReceiveBytes(receiveMsgBytes);
 PlainMQ.onReceiveStr(receiveMsgStr);
 
-// 3 send your message
 PlainMQ.sendStr("{'json': true}");
 PlainMQ.sendBytes([0x17, 0x12, 0x57]);
 
